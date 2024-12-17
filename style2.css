@@ -1,0 +1,32 @@
+:root {
+    --qirmizi: #f25f4b;
+    --yasil:#a2ca28 ;
+}
+header{
+    background: url('img/headerbg.jpg') 60% 50%/cover;
+    height: 100vh;
+    text-align: center;
+}
+menu li a{ 
+    font: .8em "Avenir Next Rounded Std";
+    text-transform: uppercase;
+    color: #fff;
+}
+h1, h5{
+    text-transform: uppercase;
+    color: #fff;
+    font-family: "Myriad Pro";
+}
+h1{font-size: 2em;}
+h5{
+    font-size: 1em;
+    letter-spacing: 3px;
+}
+.txtyasil{color: var(--yasil);}
+.txtqirmizi{color: var(--qirmizi);}
+.txtag{color: #fff}
+@media only screen and (min-width: 768px){
+    h1{
+        font-size: 2.5em;
+    }
+}
